@@ -14,6 +14,8 @@ Building scalable mobile applications, backend systems, and high‑performance f
   <img src="https://img.shields.io/badge/Focus-Flutter%20%26%20Python-blueviolet?style=flat" />
   <img src="https://img.shields.io/badge/Backend-FastAPI%20%7C%20Django-success?style=flat" />
   <img src="https://img.shields.io/badge/Mobile-Flutter-02569B?style=flat&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/MBTI-INFJ--A-purple?style=flat" />
+  <img src="https://img.shields.io/badge/DISC-CD-blue?style=flat" />
 </p>
 
 # 🚀 About Me
