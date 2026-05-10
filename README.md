@@ -103,3 +103,22 @@ Building scalable mobile applications, backend systems, and high‑performance f
 </p>
 
 ---
+
+## 📱 My Apps
+
+### BTC₿ Exchange
+Multi-platform cryptocurrency exchange application featuring real-time market data, advanced trading interfaces, secure authentication, and support for Futures, Spot, and OTC markets.
+
+**Tech Stack:** Flutter • Dart • Bloc • Clean Architecture
+
+<p>
+<a href="https://play.google.com/store/apps/details?com.btcb.app">
+  <img src="https://img.shields.io/badge/Google_Play-Download-34A853?style=for-the-badge&logo=google-play&logoColor=white">
+</a>
+
+<a href="https://apps.apple.com/app/com.btcb.app">
+  <img src="https://img.shields.io/badge/App_Store-Download-000000?style=for-the-badge&logo=apple&logoColor=white">
+</a>
+</p>
+
+---
