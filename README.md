@@ -1,4 +1,4 @@
-<h1 align="center">Mohammad Zarif</h1>
+<h1 align="center">🧑‍💻Mohammad Zarif</h1>
 <h3 align="center">Senior Flutter Engineer • Python Backend Developer • FinTech Systems</h3>
 
 <p align="center">
@@ -18,7 +18,7 @@ Building scalable mobile applications, backend systems, and high‑performance f
   <img src="https://img.shields.io/badge/DISC-CD-blue?style=flat" />
 </p>
 
-# 🚀 About Me
+# 🔥 About Me
 
 - 10+ years of software development experience
 - Specialized in Flutter engineering and Python backend systems
