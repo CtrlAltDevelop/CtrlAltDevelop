@@ -1,124 +1,66 @@
-<h1 align="center">🧑‍💻Mohammad Zarif</h1>
-<h3 align="center">Senior Flutter Engineer • Python Backend Developer • FinTech Systems</h3>
+<h1 align="center">Mohammad Zarif</h1>
 
 <p align="center">
-Building scalable mobile applications, backend systems, and high‑performance financial platforms.
+  <b>Senior Flutter Engineer &nbsp;·&nbsp; Python Backend &nbsp;·&nbsp; FinTech Systems</b>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=CtrlAltDevelop&label=Profile%20Views&color=0e75b6&style=flat" />
-  <img src="https://img.shields.io/github/followers/CtrlAltDevelop?style=social" />
-  <img src="https://img.shields.io/github/stars/CtrlAltDevelop?style=social" />
-  <img src="https://img.shields.io/github/last-commit/CtrlAltDevelop/CtrlAltDevelop?style=flat&color=blue" />
-  <img src="https://img.shields.io/badge/Open%20Source-Lover-orange?style=flat" />
-  <img src="https://img.shields.io/badge/Focus-Flutter%20%26%20Python-blueviolet?style=flat" />
-  <img src="https://img.shields.io/badge/Backend-FastAPI%20%7C%20Django-success?style=flat" />
-  <img src="https://img.shields.io/badge/Mobile-Flutter-02569B?style=flat&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/MBTI-INFJ--A-purple?style=flat" />
-  <img src="https://img.shields.io/badge/DISC-CD-blue?style=flat" />
-</p>
-
-# 🔥 About Me
-
-- 10+ years of software development experience
-- Specialized in Flutter engineering and Python backend systems
-- Building scalable FinTech applications and trading platforms
-- Strong focus on Clean Architecture, performance optimization, and secure APIs
-- Experienced in remote collaboration and production-scale systems
-
-### ⚡ Engineering Impact
-
-- Reduced financial data processing time from 7 days → 2 hours
-- Built AI-assisted systems analyzing 1500+ market indicators
-- Improved trading profitability by 15%
-- Developed multi-platform trading applications with real-time infrastructure
-
----
-
-# 🧠 Core Expertise
-
-### Flutter Engineering
-- Clean Architecture
-- Bloc / Riverpod
-- High-performance UI
-- Responsive & adaptive layouts
-- Secure authentication flows
-- Advanced API integration
-- Large-scale production apps
-
-### Python Backend Engineering
-- FastAPI / Flask APIs
-- Financial data pipelines
-- Async processing systems
-- Trading automation
-- AI-assisted analytics
-- RESTful architecture
-- Background workers & automation
-
-### System Design
-- Scalable architectures
-- Event-driven systems
-- Secure API design
-- Dockerized deployment
-- Performance optimization
-- CI/CD workflows
-
----
-
-# 💻 Tech Stack
-
-### Mobile
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-
-### Backend
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-
-### Systems & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
-
----
-
-# 📈 GitHub Analytics
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=CtrlAltDevelop&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=CtrlAltDevelop&theme=tokyonight&hide_border=true" />
+  I build trading platforms and the real-time mobile clients traders actually use.
 </p>
 
 <p align="center">
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CtrlAltDevelop&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://img.shields.io/badge/Open_to-Freelance%20%26%20Contract-2EA043?style=for-the-badge" alt="Open to freelance and contract work"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=CtrlAltDevelop&theme=tokyonight&no-frame=true&margin-w=10&margin-h=10" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CtrlAltDevelop&theme=tokyo-night&hide_border=true" />
+  <a href="https://ctrlaltdevelop.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="mailto:m.zarif1996@gmail.com">
+    <img src="https://img.shields.io/badge/Email-C14438?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"/>
+  </a>
 </p>
 
 ---
 
-## 📱 My Apps
+### Now
 
-### BTC₿ Exchange
-Multi-platform cryptocurrency exchange application featuring real-time market data, advanced trading interfaces, secure authentication, and support for Futures, Spot, and OTC markets.
+Senior Flutter Engineer at **DeltaFX** — sole senior developer on a cross-platform brokerage
+CRM covering wallets, trading accounts, IB/affiliate management, social trading, and AI
+market analysis.
 
-**Tech Stack:** Flutter • Dart • Bloc • Clean Architecture
+### Impact
 
-<p>
-<a href="https://play.google.com/store/apps/details?com.btcb.app">
-  <img src="https://img.shields.io/badge/Google_Play-Download-34A853?style=for-the-badge&logo=google-play&logoColor=white">
-</a>
+- **118K-LOC Flutter codebase** — 11 feature modules, 151 use cases, 63 BLoCs, and a typed
+  `Result<Ok, Err>` boundary replacing exception-based error flow
+- **7 days → 2 hours** — re-engineered background analytics pipelines
+- **Up to +15% trading profit** — MQL and Python robots, validated through extensive backtesting
 
-<a href="https://apps.apple.com/app/com.btcb.app">
-  <img src="https://img.shields.io/badge/App_Store-Download-000000?style=for-the-badge&logo=apple&logoColor=white">
-</a>
-</p>
+### Selected Work
+
+**DeltaFX CRM** — forex brokerage client portal (iOS/Android)
+
+- Clean Architecture + BLoC with `get_it` DI across 11 feature modules
+- Swagger-driven codegen producing ~190K LOC of type-safe API clients and models
+- Dio interceptor chain — auth, transparent 401 refresh, response-envelope unwrapping
+
+**BTCB** — cryptocurrency exchange, Futures / Spot / OTC &nbsp; <a href="https://play.google.com/store/apps/details?id=com.btcb.app"><img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play"/></a>
+
+- Real-time market data, advanced charting, and trading interfaces
+- Apple & Google Sign-In, JWT, 2FA, DPoP token security, passkeys
+- Multi-theme UI with 9-language localization
+
+### Stack
+
+| | |
+| :--- | :--- |
+| **Mobile** | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![BLoC](https://img.shields.io/badge/BLoC-1B6AC6?style=flat-square) |
+| **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) |
+| **Trading** | ![MQL](https://img.shields.io/badge/MQL_4%2F5-1F6FEB?style=flat-square) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white) |
+| **Infra** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
 
 ---
+
+<sub>9+ years across brokerage, exchange, and trading-automation systems — Iran, UAE, Germany, Turkey.
+Published researcher in biomedical signal processing: five papers on neural-network and
+signal-analysis methods for neurological diagnosis.</sub>
