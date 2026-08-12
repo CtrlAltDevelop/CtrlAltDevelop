@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="CtrlAltDevelop — Mobile · Backend · Beyond" width="640"/>
+</p>
+
 <h1 align="center">Mohammad Zarif</h1>
 
 <p align="center">
