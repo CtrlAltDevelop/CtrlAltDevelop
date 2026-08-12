@@ -16,7 +16,7 @@
   <a href="https://ctrlaltdevelop.github.io">
     <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="mailto:m.zarif1996@gmail.com">
+  <a href="mailto:me.CtrlAltDev@proton.me">
     <img src="https://img.shields.io/badge/Email-C14438?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"/>
   </a>
 </p>
