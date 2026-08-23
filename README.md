@@ -73,6 +73,78 @@ covering wallets, trading accounts, IB/affiliate management, social trading, and
   </tr>
 </table>
 
+## Open Source
+
+<p align="center">
+  <sub>
+    Nine packages published to <a href="https://pub.dev">pub.dev</a>, extracted from production
+    brokerage and exchange apps. All MIT, all with a public repo, all at 160/160 pub points.
+  </sub>
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+**Architecture &amp; state**
+
+**[verdict](https://pub.dev/packages/verdict)** &nbsp;![](https://img.shields.io/pub/v/verdict?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>A sealed `Result` type and structured `Failure` hierarchy, so calls return a typed verdict instead of throwing across layer boundaries. Zero codegen.</sub>
+
+**[verdict_bloc](https://pub.dev/packages/verdict_bloc)** &nbsp;![](https://img.shields.io/pub/v/verdict_bloc?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>BLoC states that keep the last known good data through loading and error, plus a paginated list bloc with refresh, infinite scroll and filtering.</sub>
+
+</td>
+    <td width="50%" valign="top">
+
+**Charts &amp; navigation**
+
+**[ohlcv_chart](https://pub.dev/packages/ohlcv_chart)** &nbsp;![](https://img.shields.io/pub/v/ohlcv_chart?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>Candlestick, OHLC and market-depth charts on `CustomPainter` — 26 indicators, 17 drawing tools, MACD/RSI/KDJ sub-charts and price alerts.</sub>
+
+**[capsule_nav_bar](https://pub.dev/packages/capsule_nav_bar)** &nbsp;![](https://img.shields.io/pub/v/capsule_nav_bar?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>A floating bottom navigation bar styled as a rounded capsule, with an animated pill indicator and optional backdrop blur.</sub>
+
+**[sliding_segmented_control](https://pub.dev/packages/sliding_segmented_control)** &nbsp;![](https://img.shields.io/pub/v/sliding_segmented_control?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>A segmented control whose selection is a pill that slides between segments, with optional cross-fading body content.</sub>
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+**Notifications**
+
+**[toast_overlay](https://pub.dev/packages/toast_overlay)** &nbsp;![](https://img.shields.io/pub/v/toast_overlay?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>An animated, themeable overlay toast with an auto-dismiss countdown ring and a copyable support reference id.</sub>
+
+**[queued_toast](https://pub.dev/packages/queued_toast)** &nbsp;![](https://img.shields.io/pub/v/queued_toast?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>Overlay toasts that queue per screen position, de-duplicate identical messages and stack up to five — no `BuildContext` at the call site.</sub>
+
+</td>
+    <td width="50%" valign="top">
+
+**Build tooling**
+
+**[openapi_enum_patch](https://pub.dev/packages/openapi_enum_patch)** &nbsp;![](https://img.shields.io/pub/v/openapi_enum_patch?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>Gives real names to the integer enums `swagger_parser` generates, fills in the enum files it skips, and audits which ones still need naming.</sub>
+
+**[figma_tokens_gen](https://pub.dev/packages/figma_tokens_gen)** &nbsp;![](https://img.shields.io/pub/v/figma_tokens_gen?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>Generates typed Flutter `Color` constants and palette maps from Figma design-token JSON exports.</sub>
+
+</td>
+  </tr>
+</table>
+
 ## Stack
 
 <table>
