@@ -77,7 +77,7 @@ covering wallets, trading accounts, IB/affiliate management, social trading, and
 
 <p align="center">
   <sub>
-    Nine packages published to <a href="https://pub.dev">pub.dev</a>, extracted from production
+    Twelve packages published to <a href="https://pub.dev">pub.dev</a>, extracted from production
     brokerage and exchange apps. All MIT, all with a public repo, all at 160/160 pub points.
   </sub>
 </p>
@@ -96,6 +96,10 @@ covering wallets, trading accounts, IB/affiliate management, social trading, and
 <br/>
 <sub>BLoC states that keep the last known good data through loading and error, plus a paginated list bloc with refresh, infinite scroll and filtering.</sub>
 
+**[safe_json_cast](https://pub.dev/packages/safe_json_cast)** &nbsp;![](https://img.shields.io/pub/v/safe_json_cast?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>Typed casts for decoded JSON that fail loudly and name the offending field, so malformed payloads surface at parse time instead of in the UI.</sub>
+
 </td>
     <td width="50%" valign="top">
 
@@ -112,6 +116,10 @@ covering wallets, trading accounts, IB/affiliate management, social trading, and
 **[sliding_segmented_control](https://pub.dev/packages/sliding_segmented_control)** &nbsp;![](https://img.shields.io/pub/v/sliding_segmented_control?style=flat-square&label=&color=0175C2)
 <br/>
 <sub>A segmented control whose selection is a pill that slides between segments, with optional cross-fading body content.</sub>
+
+**[indicator_tab_bar](https://pub.dev/packages/indicator_tab_bar)** &nbsp;![](https://img.shields.io/pub/v/indicator_tab_bar?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>A fixed-width tab indicator that underlines the label rather than the tab, plus a sliver <code>AnimatedSwitcher</code> for cross-fading the body each tab selects.</sub>
 
 </td>
   </tr>
@@ -141,6 +149,20 @@ covering wallets, trading accounts, IB/affiliate management, social trading, and
 <br/>
 <sub>Generates typed Flutter `Color` constants and palette maps from Figma design-token JSON exports.</sub>
 
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+**Security**
+
+**[dpop_client](https://pub.dev/packages/dpop_client)** &nbsp;![](https://img.shields.io/pub/v/dpop_client?style=flat-square&label=&color=0175C2)
+<br/>
+<sub>DPoP proof JWTs per RFC 9449 — ES256 key handling, PEM storage, JWK thumbprints, access-token binding and server-supplied nonces, in pure Dart.</sub>
+
+</td>
+    <td width="50%" valign="top">
+&nbsp;
 </td>
   </tr>
 </table>
