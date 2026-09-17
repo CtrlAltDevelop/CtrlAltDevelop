@@ -36,10 +36,10 @@
 
 <h2 id="open-source">Open source</h2>
 
-Two long-running projects sit at the centre of my open-source work — a financial charting engine
-for Flutter, and a production-oriented Django Ninja backend starter. Both come out of shipping
-real trading products, and both are maintained as products in their own right: documented, tested,
-versioned, and used in production.
+Two long-running projects sit at the centre of my open-source work — a charting library that covers
+a whole trading product, and a Django Ninja backend starter that covers a whole service. Both come
+out of shipping real trading systems, and both are maintained as products in their own right:
+documented page by page, tested, versioned, and used in production.
 
 Around them sits a focused set of smaller, single-purpose Dart and Flutter packages. Every project
 is MIT licensed and available on GitHub.
@@ -54,32 +54,44 @@ is MIT licensed and available on GitHub.
 
 ### [django-ninja-starter](https://pypi.org/project/django-ninja-starter/)
 
-**A production-oriented Django Ninja API template and project generator**
+**A production-oriented Django Ninja starter, as a template and a generator**
 
 [![PyPI version](https://img.shields.io/pypi/v/django-ninja-starter?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3776AB)](https://pypi.org/project/django-ninja-starter/)
 [![Python versions](https://img.shields.io/pypi/pyversions/django-ninja-starter?style=flat-square&logo=python&logoColor=white&color=3776AB)](https://pypi.org/project/django-ninja-starter/)
 [![License](https://img.shields.io/pypi/l/django-ninja-starter?style=flat-square&color=238636)](https://github.com/CtrlAltDevelop/django-ninja-starter/blob/main/LICENSE)
 [![Source](https://img.shields.io/badge/source-GitHub-181717?style=flat-square&logo=github)](https://github.com/CtrlAltDevelop/django-ninja-starter)
 
-A backend foundation shipped two ways: as a **GitHub Template** and as an installable project
-generator (`pipx install django-ninja-starter`). It answers the questions every new API project
-has to answer anyway — settings per environment, auth, versioning, CI — so the first commit
+Shipped two ways: as a **GitHub Template**, and as an installable generator
+(`pipx install django-ninja-starter`). It answers what every new API project has to
+answer anyway — settings per environment, auth, versioning, CI — so the first commit
 already looks like a mature service.
 
-**What's in the box**
+**The foundation**
 
-- **Structure** — feature-first source layout, one app per capability
-- **Config** — environment-specific settings with secure production defaults
-- **API** — OpenAPI docs with a version selector in the Swagger top bar
-- **Ops** — health checks, Docker-ready, CI pipeline included
-- **Quality** — typing, linting, coverage and tests wired from day one
+- Feature-first layout, environment-specific settings, secure production defaults
+- OpenAPI docs with a version selector in the Swagger top bar, plus ReDoc per version
+- Health checks, Docker-ready, CI, typing, linting, coverage and tests from day one
+- Admin themed with [Unfold](https://unfoldadmin.com): a dashboard of real numbers, a
+  sidebar built from the apps you installed, and an environment badge
 
-**Authentication — included, and entirely opt-in.** Each method is its own app that installs
-nothing until you name it:
+**Authentication — included, entirely opt-in.** Each method is its own app that
+installs nothing until you name it:
 
 - **4 login methods** · **4 second factors** · **4 social providers** · **3 token modes**
 - Every login path ends by minting a signed **JWT**
-- One documentation page per app: routes, models, admin, setup, usage
+- Two-step state lives in Redis, hashed; endpoints deliberately reveal nothing about
+  which accounts exist
+
+**Five feature apps, off by default.** Name one in the environment and it appears —
+tables, routes, admin and all. Leave it unset and the project carries none of it:
+
+| App | What you get |
+|---|---|
+| `cms` | Pages of sections of typed, translatable fields; drafts, schedules, signed preview links |
+| `notifications` | One surface over REST, GraphQL, gRPC and a WebSocket that keeps a second device in step |
+| `support` | Live chat and tickets as one thing, plus channels, groups and direct messages |
+| `shop` | Catalogue, variants and stock, campaigns, basket, orders, coupons and payments |
+| `wallet` | Balances derived from movements; deposits, transfers, crypto, conversion, approvals |
 
 **Scaffolding built in**
 
@@ -88,42 +100,53 @@ python manage.py startapi users --api-version v1
 ```
 
 Creates the app module and a matching endpoint test, registers the router, and exposes
-`GET /api/v1/users/` — visible immediately in the v1 OpenAPI schema and the Swagger version
-selector.
+`GET /api/v1/users/` — visible immediately in the v1 OpenAPI schema.
+
+<sub>Python 3.12+ · Django 5.2 and 6.x · one documentation page per app</sub>
 
 </td>
 <td width="50%" valign="top">
 
 ### [ohlcv_chart](https://pub.dev/packages/ohlcv_chart)
 
-**A candlestick and technical-analysis charting engine for Flutter**
+**The trading screen and the reporting charts around it, in one dependency**
 
 [![pub.dev version](https://img.shields.io/pub/v/ohlcv_chart?style=flat-square&logo=dart&logoColor=white&label=pub.dev&color=0175C2)](https://pub.dev/packages/ohlcv_chart)
 [![pub points](https://img.shields.io/pub/points/ohlcv_chart?style=flat-square&logo=dart&logoColor=white&color=0175C2)](https://pub.dev/packages/ohlcv_chart/score)
 [![License](https://img.shields.io/github/license/CtrlAltDevelop/ohlcv_chart?style=flat-square&color=238636)](https://github.com/CtrlAltDevelop/ohlcv_chart/blob/main/LICENSE)
 [![Source](https://img.shields.io/badge/source-GitHub-181717?style=flat-square&logo=github)](https://github.com/CtrlAltDevelop/ohlcv_chart)
 
-Rendered entirely with `CustomPainter` — no charting library underneath, no platform views,
-no WebView. Built for real trading screens: pan and zoom across large candle sets, crosshair
-inspection, and live streaming updates. It powers the charting in a production cryptocurrency
-exchange.
+A candlestick chart with **31 indicators** and **29 drawing tools**, and **39 other
+chart widgets** beside it — the order book and the tape, the charts a backtest report
+is built from, and the ones a dashboard is. Everything is rendered with
+`CustomPainter`: no WebView, no JavaScript bridge, no charting library underneath.
+Every feature is free, including commercially; there is no paid tier.
 
-**What it draws**
+<a href="https://github.com/CtrlAltDevelop/ohlcv_chart#gallery"><img src="https://raw.githubusercontent.com/CtrlAltDevelop/ohlcv_chart/main/screenshots/chart-types.png" width="100%" alt="Eight chart types rendered by ohlcv_chart"/></a>
 
-- **8 chart types** — candlestick, OHLC bars, line, area and more
-- **31 indicators** — MA, EMA, BOLL, MACD, RSI, KDJ, and beyond
-- **29 drawing tools** — trendlines, channels, Fibonacci, shapes, annotations
-- **Sub-charts** — stacked MACD / RSI / KDJ panes with a shared crosshair
-- **Market depth** — a dedicated order-book depth chart
-- **Alerts** — draggable price alerts drawn on the axis
-- **Bar replay** — step back through history to rehearse a strategy
+**The candlestick chart**
 
-**Built for production**
+- **8 chart types**, plus Heikin-Ashi, Renko, line break, Kagi, point & figure and
+  range bars as transforms of the source candles
+- **31 indicators**, each a configured instance — `ATR(8)` and `ATR(14)` run side by
+  side — with higher-timeframe values that never repaint
+- **29 drawing tools** with a line editor, multi-select, undo/redo, keyboard
+  shortcuts, JSON persistence and price alerts
+- Bar replay, linked charts, an overview strip, order and position lines, session
+  dividers and a live price line
 
-- Themeable end to end — colours, typography, grid, and axis formatting
-- Streaming-friendly: append or patch the latest candle without a full rebuild
-- Gesture model tuned for touch and mouse, including scroll-wheel zoom
-- Documented, with a runnable example app
+**The other 39 charts**
+
+- **Order flow** — market profile, footprint, order-book heatmap, cumulative delta,
+  liquidity map, open interest and funding
+- **Backtests** — equity curve with drawdown, Monte Carlo fan, R-multiple
+  distribution, trade timeline, seasonality, calendar P&L
+- **Dashboards** — treemap, sunburst, sankey, chord, marimekko, stream, parallel
+  coordinates, box plot, violin, bullet, gauge, waffle, funnel and more
+- **Derivatives** — options payoff with break-evens, volatility smiles and term
+  structures, pair spreads with z-score
+
+<sub>Dart 3.12+ · Flutter 3.44+ · themeable end to end · one documentation page per feature</sub>
 
 </td>
 </tr>
