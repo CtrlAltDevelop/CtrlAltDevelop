@@ -56,10 +56,10 @@ is MIT licensed and available on GitHub.
 
 **A production-oriented Django Ninja API template and project generator**
 
-[![PyPI](https://img.shields.io/badge/view_on-PyPI-3776AB?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/django-ninja-starter/)
+[![PyPI version](https://img.shields.io/pypi/v/django-ninja-starter?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3776AB)](https://pypi.org/project/django-ninja-starter/)
+[![Python versions](https://img.shields.io/pypi/pyversions/django-ninja-starter?style=flat-square&logo=python&logoColor=white&color=3776AB)](https://pypi.org/project/django-ninja-starter/)
+[![License](https://img.shields.io/pypi/l/django-ninja-starter?style=flat-square&color=238636)](https://github.com/CtrlAltDevelop/django-ninja-starter/blob/main/LICENSE)
 [![Source](https://img.shields.io/badge/source-GitHub-181717?style=flat-square&logo=github)](https://github.com/CtrlAltDevelop/django-ninja-starter)
-[![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white)](https://pypi.org/project/django-ninja-starter/)
-[![Django](https://img.shields.io/badge/Django-5.2%20%7C%206.x-092E20?style=flat-square&logo=django&logoColor=white)](https://pypi.org/project/django-ninja-starter/)
 
 A backend foundation shipped two ways: as a **GitHub Template** and as an installable project
 generator (`pipx install django-ninja-starter`). It answers the questions every new API project
@@ -98,9 +98,10 @@ selector.
 
 **A candlestick and technical-analysis charting engine for Flutter**
 
-[![pub.dev](https://img.shields.io/badge/view_on-pub.dev-0175C2?style=flat-square&logo=dart&logoColor=white)](https://pub.dev/packages/ohlcv_chart)
+[![pub.dev version](https://img.shields.io/pub/v/ohlcv_chart?style=flat-square&logo=dart&logoColor=white&label=pub.dev&color=0175C2)](https://pub.dev/packages/ohlcv_chart)
+[![pub points](https://img.shields.io/pub/points/ohlcv_chart?style=flat-square&logo=dart&logoColor=white&color=0175C2)](https://pub.dev/packages/ohlcv_chart/score)
+[![License](https://img.shields.io/github/license/CtrlAltDevelop/ohlcv_chart?style=flat-square&color=238636)](https://github.com/CtrlAltDevelop/ohlcv_chart/blob/main/LICENSE)
 [![Source](https://img.shields.io/badge/source-GitHub-181717?style=flat-square&logo=github)](https://github.com/CtrlAltDevelop/ohlcv_chart)
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://pub.dev/packages/ohlcv_chart)
 
 Rendered entirely with `CustomPainter` — no charting library underneath, no platform views,
 no WebView. Built for real trading screens: pan and zoom across large candle sets, crosshair
@@ -266,17 +267,6 @@ AI-assisted market analysis.
 Author of five peer-reviewed papers on neural networks and biomedical signal analysis, published
 before moving into financial software full time. The same habits carry over: measure first,
 model explicitly, and document the method well enough that someone else can reproduce it.
-
-<br/>
-
----
-
-## GitHub activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CtrlAltDevelop&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=github_dark&title_color=1F6FEB&icon_color=1F6FEB&bg_color=00000000" alt="GitHub statistics for CtrlAltDevelop" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CtrlAltDevelop&layout=compact&hide_border=true&langs_count=8&theme=github_dark&title_color=1F6FEB&bg_color=00000000" alt="Most used languages" height="165"/>
-</p>
 
 <br/>
 
