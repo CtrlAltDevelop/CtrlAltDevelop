@@ -57,91 +57,90 @@ is MIT licensed and available on GitHub.
 [![License](https://img.shields.io/pypi/l/django-ninja-starter?style=flat-square&color=238636)](https://github.com/CtrlAltDevelop/django-ninja-starter/blob/main/LICENSE)
 [![Source](https://img.shields.io/badge/source-GitHub-181717?style=flat-square&logo=github)](https://github.com/CtrlAltDevelop/django-ninja-starter)
 
-Shipped two ways: as a **GitHub Template**, and as an installable generator
-(`pipx install django-ninja-starter`). It answers what every new API project has to
-answer anyway — settings per environment, auth, versioning, CI — so the first commit
-already looks like a mature service.
+Distributed both as a GitHub Template and as a `pipx`-installable generator, so a service
+can start either way. The decisions a backend has to make in its first week — environment
+separation, authentication, API versioning, CI — are already made, wired together and
+documented.
 
 **The foundation**
 
-- Feature-first layout, environment-specific settings, secure production defaults
-- OpenAPI docs with a version selector in the Swagger top bar, plus ReDoc per version
-- Health checks, Docker-ready, CI, typing, linting, coverage and tests from day one
-- Admin themed with [Unfold](https://unfoldadmin.com): a dashboard of real numbers, a
-  sidebar built from the apps you installed, and an environment badge
+- Feature-first layout, per-environment settings, hardened production defaults
+- Versioned OpenAPI: Swagger with a version picker, and a ReDoc page per version
+- Health endpoints, container support, CI, and typing, linting, coverage and tests configured up front
+- Admin skinned with [Unfold](https://unfoldadmin.com), including a metrics landing page and a visible environment marker
 
-**Authentication — included, entirely opt-in.** Each method is its own app that
-installs nothing until you name it:
+**Authentication, opt-in by design.** Each mechanism ships as an isolated app that stays
+inert until it is enabled:
 
 - **4 login methods** · **4 second factors** · **4 social providers** · **3 token modes**
-- Every login path ends by minting a signed **JWT**
-- Two-step state lives in Redis, hashed; endpoints deliberately reveal nothing about
-  which accounts exist
+- Every path converges on a signed **JWT**
+- Intermediate two-factor state is hashed and held in Redis, and responses are written so
+  they cannot be used to discover which accounts exist
 
-**Five feature apps, off by default.** Name one in the environment and it appears —
-tables, routes, admin and all. Leave it unset and the project carries none of it:
+**Five optional feature apps.** Each stays dormant — no migrations, routes or admin
+registration — until it is switched on:
 
-| App | What you get |
+| App | Scope |
 |---|---|
-| `cms` | Pages of sections of typed, translatable fields; drafts, schedules, signed preview links |
-| `notifications` | One surface over REST, GraphQL, gRPC and a WebSocket that keeps a second device in step |
-| `support` | Live chat and tickets as one thing, plus channels, groups and direct messages |
-| `shop` | Catalogue, variants and stock, campaigns, basket, orders, coupons and payments |
-| `wallet` | Balances derived from movements; deposits, transfers, crypto, conversion, approvals |
+| `cms` | A page model assembled from reusable, translatable section types, with drafts, scheduling and signed preview links |
+| `notifications` | One notification model exposed over REST, GraphQL, gRPC and WebSocket, kept consistent across a reader's devices |
+| `support` | Ticketing and messaging unified in a single model, covering staff queues alongside group and private conversations |
+| `shop` | Catalogue, variants and stock, timed pricing campaigns, carts, and the order, coupon and payment cycle |
+| `wallet` | Ledger-derived balances with deposits, transfers, conversion, crypto support and operator approval steps |
 
-**Scaffolding built in**
+**Scaffolding**
 
 ```bash
 python manage.py startapi users --api-version v1
 ```
 
-Creates the app module and a matching endpoint test, registers the router, and exposes
-`GET /api/v1/users/` — visible immediately in the v1 OpenAPI schema.
+Generates the app, registers its router and writes a first endpoint test, so the new route
+appears in the versioned schema straight away.
 
-<sub>Python 3.12+ · Django 5.2 and 6.x · one documentation page per app</sub>
+<sub>Python 3.12+ · Django 5.2 and 6.x · a documentation page per app</sub>
 
 <br/>
 
 ### [ohlcv_chart](https://pub.dev/packages/ohlcv_chart)
 
-**The trading screen and the reporting charts around it, in one dependency**
+**A charting library covering the trading screen and the reporting around it**
 
 [![pub.dev version](https://img.shields.io/pub/v/ohlcv_chart?style=flat-square&logo=dart&logoColor=white&label=pub.dev&color=0175C2)](https://pub.dev/packages/ohlcv_chart)
 [![pub points](https://img.shields.io/pub/points/ohlcv_chart?style=flat-square&logo=dart&logoColor=white&color=0175C2)](https://pub.dev/packages/ohlcv_chart/score)
 [![License](https://img.shields.io/github/license/CtrlAltDevelop/ohlcv_chart?style=flat-square&color=238636)](https://github.com/CtrlAltDevelop/ohlcv_chart/blob/main/LICENSE)
 [![Source](https://img.shields.io/badge/source-GitHub-181717?style=flat-square&logo=github)](https://github.com/CtrlAltDevelop/ohlcv_chart)
 
-A candlestick chart with **31 indicators** and **29 drawing tools**, and **39 other
-chart widgets** beside it — the order book and the tape, the charts a backtest report
-is built from, and the ones a dashboard is. Everything is rendered with
-`CustomPainter`: no WebView, no JavaScript bridge, no charting library underneath.
-Every feature is free, including commercially; there is no paid tier.
+A candlestick chart carrying **31 indicators** and **29 drawing tools**, accompanied by
+**39 further chart widgets** that span order flow, backtest reporting and dashboards.
+Everything is drawn directly in Flutter through `CustomPainter`, with no embedded web view
+and no wrapped JavaScript library. MIT licensed throughout, with no commercial tier and
+nothing held back behind one.
 
 <a href="https://github.com/CtrlAltDevelop/ohlcv_chart#gallery"><img src="https://raw.githubusercontent.com/CtrlAltDevelop/ohlcv_chart/main/screenshots/chart-types.png" width="100%" alt="Eight chart types rendered by ohlcv_chart"/></a>
 
 **The candlestick chart**
 
-- **8 chart types**, plus Heikin-Ashi, Renko, line break, Kagi, point & figure and
-  range bars as transforms of the source candles
-- **31 indicators**, each a configured instance — `ATR(8)` and `ATR(14)` run side by
-  side — with higher-timeframe values that never repaint
-- **29 drawing tools** with a line editor, multi-select, undo/redo, keyboard
-  shortcuts, JSON persistence and price alerts
-- Bar replay, linked charts, an overview strip, order and position lines, session
-  dividers and a live price line
+- **8 base types**, plus Heikin-Ashi, Renko, line break, Kagi, point & figure and range
+  bars as re-aggregations of the source candles
+- **31 indicators** instantiated per configuration, so several periods of one indicator
+  coexist; higher-timeframe series derive only from closed bars and so never repaint
+- **29 drawing tools** with an inline style editor, multi-select, undo and redo, keyboard
+  shortcuts, JSON serialisation and level-crossing alerts
+- Replay, linked charts, an overview scrubber, order and position overlays, session
+  boundaries and a live price marker
 
-**The other 39 charts**
+**The 39 charts around it**
 
-- **Order flow** — market profile, footprint, order-book heatmap, cumulative delta,
-  liquidity map, open interest and funding
-- **Backtests** — equity curve with drawdown, Monte Carlo fan, R-multiple
+- **Order flow** — market profile, footprint, book heatmap, cumulative delta, liquidity
+  map, open interest and funding
+- **Backtests** — equity curve with drawdown panel, Monte Carlo bands, R-multiple
   distribution, trade timeline, seasonality, calendar P&L
 - **Dashboards** — treemap, sunburst, sankey, chord, marimekko, stream, parallel
-  coordinates, box plot, violin, bullet, gauge, waffle, funnel and more
-- **Derivatives** — options payoff with break-evens, volatility smiles and term
-  structures, pair spreads with z-score
+  coordinates, box, violin, bullet, gauge, waffle and funnel
+- **Derivatives** — option payoff with break-evens, volatility smiles and term structures,
+  pair spreads with a z-score
 
-<sub>Dart 3.12+ · Flutter 3.44+ · themeable end to end · one documentation page per feature</sub>
+<sub>Dart 3.12+ · Flutter 3.44+ · themeable throughout · a documentation page per feature</sub>
 
 <br/>
 
