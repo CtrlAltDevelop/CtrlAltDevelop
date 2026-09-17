@@ -48,10 +48,6 @@ is MIT licensed and available on GitHub.
 
 <h3 align="center">Flagship projects</h3>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### [django-ninja-starter](https://pypi.org/project/django-ninja-starter/)
 
 **A production-oriented Django Ninja starter, as a template and a generator**
@@ -104,8 +100,7 @@ Creates the app module and a matching endpoint test, registers the router, and e
 
 <sub>Python 3.12+ · Django 5.2 and 6.x · one documentation page per app</sub>
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
 ### [ohlcv_chart](https://pub.dev/packages/ohlcv_chart)
 
@@ -147,10 +142,6 @@ Every feature is free, including commercially; there is no paid tier.
   structures, pair spreads with z-score
 
 <sub>Dart 3.12+ · Flutter 3.44+ · themeable end to end · one documentation page per feature</sub>
-
-</td>
-</tr>
-</table>
 
 <br/>
 
