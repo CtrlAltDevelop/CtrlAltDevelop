@@ -9,24 +9,24 @@
 </p>
 
 <p align="center">
-  I build production-grade Flutter and Django systems for brokerages and exchanges —<br/>
+  I build production Flutter and Django systems for brokerages and exchanges —<br/>
   then extract the reusable parts into open-source packages for the Dart and Python communities.
 </p>
 
 <p align="center">
-  <a href="https://ctrlaltdevelop.github.io"><img src="https://img.shields.io/badge/View_Portfolio-1F6FEB?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="View portfolio"/></a>
-  <a href="#-open-source"><img src="https://img.shields.io/badge/Open_Source-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore open-source projects"/></a>
-  <a href="mailto:me.CtrlAltDev@proton.me"><img src="https://img.shields.io/badge/Contact_Me-6D4AFF?style=for-the-badge&amp;logo=protonmail&amp;logoColor=white" alt="Contact me"/></a>
+  <a href="https://ctrlaltdevelop.github.io"><img src="https://img.shields.io/badge/Portfolio-1F6FEB?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Portfolio"/></a>
+  <a href="#open-source"><img src="https://img.shields.io/badge/Packages-0175C2?style=for-the-badge&amp;logo=dart&amp;logoColor=white" alt="Open-source packages"/></a>
+  <a href="https://pypi.org/user/CtrlAltDevelop/"><img src="https://img.shields.io/badge/PyPI-3776AB?style=for-the-badge&amp;logo=pypi&amp;logoColor=white" alt="Packages on PyPI"/></a>
+  <a href="mailto:me.CtrlAltDev@proton.me"><img src="https://img.shields.io/badge/Contact-6D4AFF?style=for-the-badge&amp;logo=protonmail&amp;logoColor=white" alt="Contact"/></a>
 </p>
 
 <br/>
 
 <table align="center">
   <tr>
-    <td align="center" width="180"><strong>17 packages</strong><br/><sub>published on pub.dev &amp; PyPI</sub></td>
-    <td align="center" width="180"><strong>160 / 160</strong><br/><sub>pub points on every package</sub></td>
-    <td align="center" width="180"><strong>9+ years</strong><br/><sub>in brokerage &amp; exchange systems</sub></td>
-    <td align="center" width="180"><strong>MIT licensed</strong><br/><sub>open, documented, reusable</sub></td>
+    <td align="center" width="200"><strong>17 packages</strong><br/><sub>published on pub.dev &amp; PyPI</sub></td>
+    <td align="center" width="200"><strong>9+ years</strong><br/><sub>brokerage &amp; exchange systems</sub></td>
+    <td align="center" width="200"><strong>MIT licensed</strong><br/><sub>documented and reusable</sub></td>
   </tr>
 </table>
 
@@ -34,25 +34,25 @@
 
 ---
 
-<h2 id="-open-source">🧩 Open source</h2>
+<h2 id="open-source">Open source</h2>
 
-Two large, long-running projects sit at the centre of my open-source work — a complete financial
-charting engine for Flutter, and a production-oriented Django Ninja backend starter. Both are the
-distilled result of shipping real trading products, and both are maintained as full products in
-their own right: documented, tested, versioned, and used in production.
+Two long-running projects sit at the centre of my open-source work — a financial charting engine
+for Flutter, and a production-oriented Django Ninja backend starter. Both come out of shipping
+real trading products, and both are maintained as products in their own right: documented, tested,
+versioned, and used in production.
 
 Around them sits a focused set of smaller, single-purpose Dart and Flutter packages. Every project
 is MIT licensed and available on GitHub.
 
 <br/>
 
-<h3 align="center">⭐ Flagship projects</h3>
+<h3 align="center">Flagship projects</h3>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🐍 [django-ninja-starter](https://pypi.org/project/django-ninja-starter/)
+### [django-ninja-starter](https://pypi.org/project/django-ninja-starter/)
 
 **A production-oriented Django Ninja API template and project generator**
 
@@ -61,10 +61,10 @@ is MIT licensed and available on GitHub.
 [![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white)](https://pypi.org/project/django-ninja-starter/)
 [![Django](https://img.shields.io/badge/Django-5.2%20%7C%206.x-092E20?style=flat-square&logo=django&logoColor=white)](https://pypi.org/project/django-ninja-starter/)
 
-A complete backend foundation, shipped two ways: as a **GitHub Template** and as an
-**installable project generator** (`pipx install django-ninja-starter`). It answers the
-questions every new API project has to answer anyway — settings per environment, auth,
-versioning, CI — so the first commit already looks like a mature service.
+A backend foundation shipped two ways: as a **GitHub Template** and as an installable project
+generator (`pipx install django-ninja-starter`). It answers the questions every new API project
+has to answer anyway — settings per environment, auth, versioning, CI — so the first commit
+already looks like a mature service.
 
 **What's in the box**
 
@@ -94,18 +94,18 @@ selector.
 </td>
 <td width="50%" valign="top">
 
-### 📈 [ohlcv_chart](https://pub.dev/packages/ohlcv_chart)
+### [ohlcv_chart](https://pub.dev/packages/ohlcv_chart)
 
-**The most complete candlestick charting engine for Flutter**
+**A candlestick and technical-analysis charting engine for Flutter**
 
 [![pub.dev](https://img.shields.io/badge/view_on-pub.dev-0175C2?style=flat-square&logo=dart&logoColor=white)](https://pub.dev/packages/ohlcv_chart)
 [![Source](https://img.shields.io/badge/source-GitHub-181717?style=flat-square&logo=github)](https://github.com/CtrlAltDevelop/ohlcv_chart)
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://pub.dev/packages/ohlcv_chart)
 
-Rendered entirely with `CustomPainter` — **no charting library underneath**, no platform views,
-no WebView. Built for real trading screens: smooth pan and zoom across large candle sets,
-crosshair inspection, and live streaming updates without dropping frames. It powers the
-charting in a production cryptocurrency exchange.
+Rendered entirely with `CustomPainter` — no charting library underneath, no platform views,
+no WebView. Built for real trading screens: pan and zoom across large candle sets, crosshair
+inspection, and live streaming updates. It powers the charting in a production cryptocurrency
+exchange.
 
 **What it draws**
 
@@ -122,7 +122,7 @@ charting in a production cryptocurrency exchange.
 - Themeable end to end — colours, typography, grid, and axis formatting
 - Streaming-friendly: append or patch the latest candle without a full rebuild
 - Gesture model tuned for touch and mouse, including scroll-wheel zoom
-- Fully documented with a runnable example app
+- Documented, with a runnable example app
 
 </td>
 </tr>
@@ -130,13 +130,13 @@ charting in a production cryptocurrency exchange.
 
 <br/>
 
-<h3 align="center">📦 Supporting packages</h3>
+<h3 align="center">Supporting packages</h3>
 
 <p align="center"><sub>Small, single-purpose packages extracted from production Flutter work — each one solving one problem completely.</sub></p>
 
 <br/>
 
-**🏛️ Architecture** — <sub>explicit error flow and predictable state, with zero code generation</sub>
+**Architecture** — <sub>explicit error flow and predictable state, with zero code generation</sub>
 
 | Package | What it does | Link |
 |---|---|---|
@@ -144,7 +144,7 @@ charting in a production cryptocurrency exchange.
 | [`verdict_bloc`](https://pub.dev/packages/verdict_bloc) | BLoC states that keep the last known good data through loading and error, plus a paginated list bloc built on `verdict` | [pub.dev ↗](https://pub.dev/packages/verdict_bloc) |
 | [`safe_json_cast`](https://pub.dev/packages/safe_json_cast) | Typed casts for decoded JSON that fail loudly and name the field, so a malformed payload surfaces at the parse site rather than deep in the UI | [pub.dev ↗](https://pub.dev/packages/safe_json_cast) |
 
-**🎨 UI components** — <sub>polished, themeable widgets with motion that feels native</sub>
+**UI components** — <sub>themeable widgets with motion that feels native</sub>
 
 | Package | What it does | Link |
 |---|---|---|
@@ -153,23 +153,23 @@ charting in a production cryptocurrency exchange.
 | [`sliding_segmented_control`](https://pub.dev/packages/sliding_segmented_control) | A themeable segmented control with a pill sliding between segments and an optional body that cross-fades underneath it | [pub.dev ↗](https://pub.dev/packages/sliding_segmented_control) |
 | [`indicator_tab_bar`](https://pub.dev/packages/indicator_tab_bar) | A fixed-width indicator that underlines the label rather than the tab, plus a sliver `AnimatedSwitcher` for cross-fading each tab's body | [pub.dev ↗](https://pub.dev/packages/indicator_tab_bar) |
 | [`diamond_percent_slider`](https://pub.dev/packages/diamond_percent_slider) | An integer slider on a scale of diamonds, with a thumb that leans the way it is dragged and a bubble showing the value while it moves | [pub.dev ↗](https://pub.dev/packages/diamond_percent_slider) |
-| [`ruler_scrubber`](https://pub.dev/packages/ruler_scrubber) | A performant, accessible ruler-style numeric scrubber for picking a value by sliding a measured scale | [pub.dev ↗](https://pub.dev/packages/ruler_scrubber) |
+| [`ruler_scrubber`](https://pub.dev/packages/ruler_scrubber) | An accessible ruler-style numeric scrubber for picking a value by sliding a measured scale | [pub.dev ↗](https://pub.dev/packages/ruler_scrubber) |
 
-**🔔 Notifications** — <sub>two takes on overlay toasts, for different needs</sub>
+**Notifications** — <sub>two takes on overlay toasts, for different needs</sub>
 
 | Package | What it does | Link |
 |---|---|---|
 | [`toast_overlay`](https://pub.dev/packages/toast_overlay) | An animated, themeable overlay toast with an auto-dismiss countdown ring and an optional copyable support reference id | [pub.dev ↗](https://pub.dev/packages/toast_overlay) |
 | [`queued_toast`](https://pub.dev/packages/queued_toast) | Overlay toasts that queue per screen position, de-duplicate identical messages, and stack up to five at a time | [pub.dev ↗](https://pub.dev/packages/queued_toast) |
 
-**🔐 Networking &amp; security** — <sub>the transport and auth layers behind a live exchange app</sub>
+**Networking &amp; security** — <sub>the transport and auth layers behind a live exchange app</sub>
 
 | Package | What it does | Link |
 |---|---|---|
 | [`dpop_client`](https://pub.dev/packages/dpop_client) | DPoP proof JWTs for Dart (**RFC 9449**) — ES256 key handling, PEM storage, JWK thumbprints, access-token binding, and server-supplied nonces | [pub.dev ↗](https://pub.dev/packages/dpop_client) |
 | [`socket_hub`](https://pub.dev/packages/socket_hub) | One WebSocket, many channels — ref-counted subscriptions derived from stream listeners, batched frames, typed payload routing, and resubscribe on reconnect | [pub.dev ↗](https://pub.dev/packages/socket_hub) |
 
-**🛠️ Tooling** — <sub>codegen and design-system chores, automated</sub>
+**Tooling** — <sub>codegen and design-system chores, automated</sub>
 
 | Package | What it does | Link |
 |---|---|---|
@@ -180,11 +180,11 @@ charting in a production cryptocurrency exchange.
 
 ---
 
-## 💼 Professional work
+## Professional work
 
-I serve as **Senior Flutter Engineer at DeltaFX**, and as sole senior developer on a cross-platform
-brokerage CRM spanning wallets, trading accounts, introducing-broker and affiliate management,
-social trading, and AI-assisted market analysis.
+I am **Senior Flutter Engineer at DeltaFX**, working on a cross-platform brokerage CRM covering
+wallets, trading accounts, introducing-broker and affiliate management, social trading, and
+AI-assisted market analysis.
 
 <table>
   <tr>
@@ -192,9 +192,9 @@ social trading, and AI-assisted market analysis.
       <h3>DeltaFX CRM</h3>
       <sub>Forex brokerage client portal · iOS &amp; Android</sub>
       <br/><br/>
-      A modular Flutter application built on Clean Architecture and BLoC across
-      <strong>11 feature modules</strong>, supported by generated type-safe API clients,
-      resilient authentication, and explicit error boundaries at every layer seam.
+      A modular Flutter application built on Clean Architecture and BLoC, with one module per
+      feature, generated type-safe API clients, resilient authentication, and explicit error
+      boundaries at every layer seam.
       <br/><br/>
       <sub>Wallets · Trading accounts · IB &amp; affiliate management · Social trading · KYC</sub>
     </td>
@@ -202,20 +202,12 @@ social trading, and AI-assisted market analysis.
       <h3>BTCB <a href="https://play.google.com/store/apps/details?id=com.btcb.app"><img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&amp;logo=googleplay&amp;logoColor=white" alt="Google Play"/></a></h3>
       <sub>Cryptocurrency exchange · Futures, Spot &amp; OTC</sub>
       <br/><br/>
-      A full exchange client with real-time market data, advanced charting, passkeys and DPoP
-      request signing, <strong>9-language localization</strong>, <strong>151 use cases</strong>
-      and <strong>63 BLoCs</strong>.
+      An exchange client with real-time market data, advanced charting, passkey sign-in and DPoP
+      request signing, and full multi-language localization — built on the same modular
+      architecture.
       <br/><br/>
       <sub>Futures · Spot · OTC · Order book · Streaming charts · Passkeys</sub>
     </td>
-  </tr>
-</table>
-
-<table align="center">
-  <tr>
-    <td align="center" width="250"><strong>118K LOC</strong><br/><sub>production Flutter codebase</sub></td>
-    <td align="center" width="250"><strong>7 days → 2 hours</strong><br/><sub>analytics pipeline runtime</sub></td>
-    <td align="center" width="250"><strong>+15% profit</strong><br/><sub>from automated strategies</sub></td>
   </tr>
 </table>
 
@@ -223,7 +215,7 @@ social trading, and AI-assisted market analysis.
 
 ---
 
-## ⚙️ Core technologies
+## Core technologies
 
 <table>
   <tr>
@@ -269,18 +261,36 @@ social trading, and AI-assisted market analysis.
 
 ---
 
+## Research
+
+Author of five peer-reviewed papers on neural networks and biomedical signal analysis, published
+before moving into financial software full time. The same habits carry over: measure first,
+model explicitly, and document the method well enough that someone else can reproduce it.
+
+<br/>
+
+---
+
+## GitHub activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=CtrlAltDevelop&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=github_dark&title_color=1F6FEB&icon_color=1F6FEB&bg_color=00000000" alt="GitHub statistics for CtrlAltDevelop" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CtrlAltDevelop&layout=compact&hide_border=true&langs_count=8&theme=github_dark&title_color=1F6FEB&bg_color=00000000" alt="Most used languages" height="165"/>
+</p>
+
+<br/>
+
+---
+
 <p align="center">
   <strong>Engineering financial products across mobile, backend, and automation</strong>
   <br/>
-  <sub>
-    9+ years across brokerage, exchange, and trading-automation systems in Iran, the UAE, Germany, and Turkey.
-    <br/>
-    Published researcher and author of five papers on neural networks and biomedical signal analysis.
-  </sub>
+  <sub>9+ years across brokerage, exchange, and trading-automation systems in Iran, the UAE, Germany, and Turkey.</sub>
 </p>
 
 <p align="center">
   <a href="https://ctrlaltdevelop.github.io">Portfolio</a> ·
   <a href="https://github.com/CtrlAltDevelop">GitHub</a> ·
+  <a href="https://pypi.org/user/CtrlAltDevelop/">PyPI</a> ·
   <a href="mailto:me.CtrlAltDev@proton.me">Contact</a>
 </p>
