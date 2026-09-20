@@ -292,7 +292,7 @@ model explicitly, and document the method well enough that someone else can repr
 </p>
 
 <p align="center">
-  <a href="https://ctrlaltdevelop.me">Portfolio</a> ·
+  <a href="https://ctrlaltdevelop.github.io">Portfolio</a> ·
   <a href="https://github.com/CtrlAltDevelop">GitHub</a> ·
   <a href="https://pypi.org/user/CtrlAltDevelop/">PyPI</a> ·
   <a href="mailto:me.CtrlAltDev@proton.me">Contact</a>
