@@ -17,6 +17,7 @@
   <a href="https://ctrlaltdevelop.github.io"><img src="https://img.shields.io/badge/Portfolio-1F6FEB?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Portfolio"/></a>
   <a href="#open-source"><img src="https://img.shields.io/badge/Packages-0175C2?style=for-the-badge&amp;logo=dart&amp;logoColor=white" alt="Open-source packages"/></a>
   <a href="https://pypi.org/user/CtrlAltDevelop/"><img src="https://img.shields.io/badge/PyPI-3776AB?style=for-the-badge&amp;logo=pypi&amp;logoColor=white" alt="Packages on PyPI"/></a>
+  <a href="https://www.linkedin.com/in/mohammad-zarif-dev/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:me.CtrlAltDev@proton.me"><img src="https://img.shields.io/badge/Contact-6D4AFF?style=for-the-badge&amp;logo=protonmail&amp;logoColor=white" alt="Contact"/></a>
 </p>
 
@@ -295,5 +296,6 @@ model explicitly, and document the method well enough that someone else can repr
   <a href="https://ctrlaltdevelop.github.io">Portfolio</a> ·
   <a href="https://github.com/CtrlAltDevelop">GitHub</a> ·
   <a href="https://pypi.org/user/CtrlAltDevelop/">PyPI</a> ·
+  <a href="https://www.linkedin.com/in/mohammad-zarif-dev/">LinkedIn</a> ·
   <a href="mailto:me.CtrlAltDev@proton.me">Contact</a>
 </p>
