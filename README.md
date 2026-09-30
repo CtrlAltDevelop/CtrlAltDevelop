@@ -5,7 +5,7 @@
 <h1 align="center">Mohammad Zarif</h1>
 
 <p align="center">
-  <strong>Senior Software Engineer</strong> · Flutter &amp; Python · FinTech Systems
+  <strong>Senior Software Engineer</strong> · Flutter &amp; Python
 </p>
 
 <p align="center">
