@@ -24,6 +24,8 @@ Before moving into financial software full time, I authored **five peer-reviewed
 
 ## 🌱 Open Source
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/CtrlAltDevelop/badge.svg)](https://hub.xerj.org/contributors/CtrlAltDevelop)
+
 - [**ohlcv_chart**](https://github.com/CtrlAltDevelop/ohlcv_chart): Flutter/Dart charting library. A tested `ProgressCard` + gallery change was selected for the [XERJ Corpus Hub](https://hub.xerj.org/contributors/CtrlAltDevelop), an open reference corpus for AI coding agents.
 - [**refresh_loadmore**](https://github.com/shareven/refresh_loadmore): contributor (main-widget padding, custom loading widget).
 
