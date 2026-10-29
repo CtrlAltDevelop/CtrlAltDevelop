@@ -22,6 +22,8 @@ Senior Software Engineer with **9+ years** building brokerage, exchange, and tra
 
 Before moving into financial software full time, I authored **five peer-reviewed papers** on neural networks and biomedical signal analysis.
 
+## 🤝 Collaborations
+
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/CtrlAltDevelop/badge.svg)](https://hub.xerj.org/contributors/CtrlAltDevelop)
 [![refresh_loadmore contributor](https://img.shields.io/badge/refresh__loadmore-contributor-0175C2?logo=flutter&logoColor=white)](https://github.com/shareven/refresh_loadmore)
 
